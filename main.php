@@ -641,7 +641,7 @@ $('a[data-toggle="pill"]').on('shown.bs.tab', function (e) {
 
  var str = e.target;
  str = " "+str;
- var click_id=str.slice(43);
+ var click_id=str.slice(45);
 alert(click_id);
  
 update_side_panels();
