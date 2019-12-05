@@ -246,7 +246,7 @@ $row_business= $query_result_business->fetch_assoc();
 <!-- orders-->
   <div id="orders" class="tab-pane fade in active">
             <div id="loading_orders" style="width:50%;margin:auto;text-align:center">
-              <img src="image/loading.gif">
+              <img src="image/loading.gif" style="width:50px">
               <h2 id="loading_orders_text"></h2>
             </div>
       <div id="order_content">
@@ -501,7 +501,7 @@ Save & Print
         </div>
       </div>
              <div id="loading_reports" style="width:50%;margin:auto;text-align:center">
-              <img src="image/loading.gif">
+              <img src="image/loading.gif" style="width:50px">
               <h2 id="loading_reports_text"></h2>
             </div> 
     <div id="report_content">
